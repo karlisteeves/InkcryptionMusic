@@ -1,3 +1,23 @@
-.body-background{
+
+body{
+    /*width: 100% */
     background-color: black;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+
+.navbar-item{
+    padding: 10px;
+    margin-right: 10px;
+    color: grey;
+}
+
+.navbar-item:hover {
+    color: ghostwhite;
 }
