@@ -1,16 +1,13 @@
 
-.navbar{
-    margin-left: 20px;
-    background-color: rgb(245, 133, 246) !important;
+.navbar, .navbar-item{
+    /*line-height: 20%;*/
+    /*height: 20%;*/
+    /*padding-top: 0;*/
+    background-color: rgb(222, 237, 246) !important;
+    color: rgb(96, 150, 180 );
+
 }
 
-/*body {*/
-    /*background-color: red !important;*/
-/*}*/
-
-
-/*.is-transparent {*/
-     /*!*background-color: transparent;*!*/
-     /*!*background-image: none;*!*/
-    /*background-color: red !important;*/
- /*}*/
+.navbar-menu{
+    margin-left: 65%;
+}
