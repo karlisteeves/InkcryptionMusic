@@ -1,23 +1,16 @@
 
-body{
-    /*width: 100% */
-    background-color: black;
-}
-
 .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-
+    margin-left: 20px;
+    background-color: rgb(245, 133, 246) !important;
 }
 
-.navbar-item{
-    padding: 10px;
-    margin-right: 10px;
-    color: grey;
-}
+/*body {*/
+    /*background-color: red !important;*/
+/*}*/
 
-.navbar-item:hover {
-    color: ghostwhite;
-}
+
+/*.is-transparent {*/
+     /*!*background-color: transparent;*!*/
+     /*!*background-image: none;*!*/
+    /*background-color: red !important;*/
+ /*}*/
