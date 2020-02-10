@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="../CSS/css_stylesheet.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <!--<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>-->
 </head>
 <body>
 <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -75,17 +74,15 @@
     </div>
     <div class="column">
         <section class="hero is-fullheight section2">
-            <div class="hero-body login-box">
-                <div class="container">
-                    <div class="columns is-centered transparent" id="login-box">
+            <div class="hero-body">
+                <div class="container" >
+                    <div class="columns transparent">
                         <form action="/login" method="POST" class="box">
+                            <div class="field" id= "login-box">
 
 
-                            <div class="field is-horizontal">
-
-
-                                <div class="control has-icons-left">
-                                    <input id="firstname" name="username" class="input is-primary" type="text"
+                                <div class="control has-icons-left" >
+                                    <input id="firstname" name="username" class="input is-medium" type="text"
                                            placeholder="First Name">
 
 
@@ -99,7 +96,7 @@
 
 
                                     <div class="control has-icons-left">
-                                        <input id="lastname" name="lastname" class="input is-primary" type="text"
+                                        <input id="lastname" name="lastname" class="input is-medium" type="text"
                                                placeholder="Last Name">
 
 
@@ -113,7 +110,7 @@
 
 
                                         <div class="control has-icons-left">
-                                            <input id="username" name="username" class="input is-primary" type="text"
+                                            <input id="username" name="username" class="input is-medium" type="text"
                                                    placeholder="Username">
 
 
@@ -124,12 +121,12 @@
 
                                         </div>
                                     </div>
-                                    <div class="field">
+                                    <!--<div class="field">-->
 
 
                                         <div class="control has-icons-left">
                                             <input id="password" name="password" type="password" placeholder="Password"
-                                                   class="input is-primary" required>
+                                                   class="input is-medium" required>
                                             <span class="icon is-small is-left">
                                             <i class="fa fa-lock"></i>
                                             </span>
@@ -138,13 +135,13 @@
 
                                                 <div class="control has-icons-left">
                                                     <input id="referralcode" name="referralcode"
-                                                           class="input is-primary" type="text"
+                                                           class="input is-medium" type="text"
                                                            placeholder="Referral Code">
 
 
                                                     <span class="icon is-small is-left">
-                                                      <i class="fa fa-lock"></i>
-                                                    </span>
+                                                      <i class="fas fa-user"></i>
+                                                     </span>
 
 
                                                 </div>
@@ -157,13 +154,13 @@
                                             </label>
                                         </div>
                                         <div class="field">
-                                            <button class="button is-primary" type="submit">
+                                            <button class="button is-light is-info" type="submit">
                                                 Login
                                             </button>
                                         </div>
-
+                                </div>
+                            </div>
                         </form>
-
                     </div>
                 </div>
             </div>

@@ -32,23 +32,31 @@
 }
 
 #login-box{
-    /*height: 500% !important;*/
-    /*padding: 60px;*/
-    /*margin-left: 450px;*/
-    /*margin-right: 450px;*/
-    /*margin-bottom: 700px;*/
+
+    flex-direction: row;
+    /*background-color: red !important;*/
+
+    padding: 60px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 
 }
 
 
 
-.slide{
-    animation-duration: 20s;
-    transition-duration: 2s !important;
-    animation-timing-function: ease-in;
-}
-
-/*#first-last-login{*/
-    /*display: flex;*/
-    /*flex-direction: row !important;*/
+/*.slide{*/
+    /*animation-duration: 20s;*/
+    /*transition-duration: 2s !important;*/
+    /*animation-timing-function: ease-in;*/
 /*}*/
+
+
+.register-form{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20% !important;
+}
+
+#button{
+    background-color:red !important;
+}
