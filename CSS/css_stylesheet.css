@@ -32,7 +32,7 @@
 }
 
 #login-box{
-
+    /*height: 500% !important;*/
     /*padding: 60px;*/
     /*margin-left: 450px;*/
     /*margin-right: 450px;*/
@@ -41,3 +41,14 @@
 }
 
 
+
+.slide{
+    animation-duration: 20s;
+    transition-duration: 2s !important;
+    animation-timing-function: ease-in;
+}
+
+/*#first-last-login{*/
+    /*display: flex;*/
+    /*flex-direction: row !important;*/
+/*}*/
